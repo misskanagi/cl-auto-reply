@@ -21,7 +21,7 @@
 1. 进入<https://appengine.google.com/>创建一个application，记住id。
 2. 进入"gae"文件夹，找到"login_info.py"并打开，将文件中的username='XXX'里面的XXX改成你的草榴账号，下面的password='XXX'里面的XXX改成你的密码。
 3. 如果要修改每天发帖的时间段，用写字板打开"gae"文件夹下的"cron.yaml"，修改文件中"schedule:"后面的内容，具体语法详见<https://cloud.google.com/appengine/docs/python/config/cron>。（**注意：里面的时间用的都是UTC时间。**）
-4. 最后上传app。
+4. 最后上传app，语法：`appcfg.py --oauth2 -A [你的appid] update gae/`（确保appcfg.py在PATH变量中）。
 
 LICENSE:
 ========
