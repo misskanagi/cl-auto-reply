@@ -10,7 +10,7 @@
 ========
 
 * 你得有一个google账号
-* 你得又一个草榴账号
+* 你得有一个草榴账号
 * 下载python 2.7， 下载地址：<https://www.python.org/downloads/>
 * 下载Google App Engine SDK for Python， 下载地址：<https://cloud.google.com/appengine/downloads>
 * 墙内用户可能需要用VPN或者其他的翻墙软件
